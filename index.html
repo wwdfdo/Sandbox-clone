@@ -13,7 +13,7 @@
   <div class="main mx-auto">
 
     <!-- Header Section -->
-    <div class="header-container w-full fixed bg-[#14181d] border-b-2 z-10">
+    <div class="header-container w-full fixed bg-[#14181d] border-b-2 z-20">
       <div class="header m-auto w-full h-[60px]">
         <div class="nav h-[60px] flex items-center justify-between relative mx-auto">
           <div class="logo">
@@ -40,9 +40,15 @@
     </div>
     <!-- First Section -->
 
-    <div class="bg-[#14181d] bg-cover h-auto flex flex-col justify-center">
+    <div class="bg-[#14181d] bg-cover h-auto flex flex-col justify-center relative">
       <video data-v-f4dfdd7c="" src="https://installers.sandbox.game/bestmoments-220401-1-HD.webm" autoplay="autoplay"
         loop="loop" preload="auto" muted="muted"></video>
+      <div class="absolute bg-red-500 left-10">
+        <img class="mx-auto w-[440px]" src="./images/TheSandboxLogo.svg" alt="">
+        <p class="text-white">Thanks to all Alpha Season 2 players!</p>
+        <p class="text-white">Season 2 Alpha Pass winners can now claim their rewards</p>
+
+      </div>
 
     </div>
 
@@ -168,11 +174,12 @@
       </div>
     </div>
 
-    <div class="bg-alphaBg bg-no-repeat w-full">
-      <div class="w-3/5 mx-auto flex flex-col">
+    <div class="bg-alphaBg bg-no-repeat w-full relative">
+      <div><img class="absolute right-[10%] mt-[-50px]" src="./images/smurf.png" alt=""></div>
+      <div class="w-3/5 mx-auto flex flex-col pt-20">
         <div class="flex flex-col justify-start">
-          <p>A LOOK BACK AT</p>
-          <h2>ALPHA SEASON 2</h2>
+          <p class="text-[#00b0ff] font-semibold text-2xl mt-10">A LOOK BACK AT</p>
+          <h2 class="text-white font-bold text-5xl my-5">ALPHA SEASON 2</h2>
         </div>
         <!-- <div>
           <div class="flex justify-wrap gap-5 mb-[20px]">
@@ -238,9 +245,9 @@
           </div>
         </div> -->
 
-        <div class="grid grid-cols-2 grid-rows-4 gap-x-2 gap-y-3">
+        <div class="grid grid-cols-2 grid-rows-[repeat(4, 140px)] gap-x-2 gap-y-3">
           <div>
-            <div class="w-full flex items-center justify-center bg-white h-[140px] rounded-lg">
+            <div class="w-full h-full flex items-center justify-center bg-white rounded-lg">
               <div><img src="./images/sand-distributed-icon.png" alt=""></div>
               <div>
                 <p>10M</p>
@@ -249,7 +256,7 @@
             </div>
           </div>
           <div>
-            <div class="w-full flex items-center justify-center bg-white h-[140px] rounded-lg">
+            <div class="w-full h-full flex items-center justify-center bg-white rounded-lg">
               <div><img src="./images/sand-distributed-icon.png" alt=""></div>
               <div>
                 <p>10M</p>
@@ -258,7 +265,7 @@
             </div>
           </div>
           <div>
-            <div class="w-full flex items-center justify-center bg-white h-[140px] rounded-lg">
+            <div class="w-full h-full flex items-center justify-center bg-white rounded-lg">
               <div><img src="./images/sand-distributed-icon.png" alt=""></div>
               <div>
                 <p>10M</p>
@@ -267,7 +274,7 @@
             </div>
           </div>
           <div>
-            <div class="w-full flex items-center justify-center bg-white h-[140px] rounded-lg">
+            <div class="w-full h-full flex items-center justify-center bg-white rounded-lg">
               <div><img src="./images/sand-distributed-icon.png" alt=""></div>
               <div>
                 <p>10M</p>
@@ -276,7 +283,7 @@
             </div>
           </div>
           <div>
-            <div class="w-full flex items-center justify-center bg-white h-[140px] rounded-lg">
+            <div class="w-full h-full flex items-center justify-center bg-white rounded-lg">
               <div><img src="./images/sand-distributed-icon.png" alt=""></div>
               <div>
                 <p>10M</p>
@@ -285,7 +292,7 @@
             </div>
           </div>
           <div>
-            <div class="w-full flex items-center justify-center bg-white h-[140px] rounded-lg">
+            <div class="w-full h-full flex items-center justify-center bg-white rounded-lg">
               <div><img src="./images/sand-distributed-icon.png" alt=""></div>
               <div>
                 <p>10M</p>
@@ -294,7 +301,7 @@
             </div>
           </div>
           <div>
-            <div class="w-full flex items-center justify-center bg-white py-10 rounded-lg">
+            <div class="w-full h-full flex items-center justify-center bg-white rounded-lg">
               <div><img src="./images/sand-distributed-icon.png" alt=""></div>
               <div>
                 <p>10M</p>
@@ -311,8 +318,126 @@
     <div class="bg-black w-full mt-20">
 
       <div class="w-3/5 mx-auto">
-        <video data-v-84a9ed0a="" src="https://installers.sandbox.game/FullHD-endofalpha-S3-220401-2.webmhd.webm"
-          autoplay="autoplay" loop="loop" preload="auto" muted="muted" class="best-moments-video"></video>
+        <div class="pt-20">
+          <p class="text-[#00b0ff] font-semibold text-2xl">ALPHA SEASON 2</p>
+          <h2 class="text-white font-bold text-5xl my-5">BEST MOMENTS</h2>
+        </div>
+        <div>
+          <video data-v-84a9ed0a="" src="https://installers.sandbox.game/FullHD-endofalpha-S3-220401-2.webmhd.webm"
+            autoplay="autoplay" loop="loop" preload="auto" muted="muted" class="best-moments-video"></video>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="w-3/5 flex mx-auto items-center justify-between relative pt-20">
+      <div>
+        <P class="text-xl font-semibold text-[#00b0ff] mb-5">COMMING SOON</P>
+        <h2 class="text-5xl font-semibold text-white mb-5">SEASON 3</h2>
+        <p class="text-white text-base">Stay tuned for the Season 3 date announcement.</p>
+        <p class="border-2 border-white w-[260px] rounded-3xl text-center text-white font-semibold py-3 px-5 mt-5">
+          REGISTER
+          FOR
+          SEASON 3
+        </p>
+      </div>
+      <div class="absolute right-0 mr-[-20%]">
+        <img class="w-[300px]" src="./images/coming-soon.png" alt="">
+      </div>
+    </div>
+
+    <div class="w-3/5 mx-auto py-20">
+      <div>
+        <p class="text-[#00b0ff] text-xl font-semibold">SAME OF OUR</p>
+        <h2 class="text-white text-5xl font-semibold mt-3">PARTNERS</h2>
+      </div>
+      <div class="grid grid-cols-7 grid-rows-2 gap-x-10 gap-y-10 items-center pt-10">
+        <div class="w-[90px]"><img src="./images/Logo_Snoop.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_HomePartner_TWalkingD.svg" alt=""></div>
+        <div class="w-[90px]"><img src="./images//Logo_Adidas.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_SCMP.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_HomePartner_ASevenfold.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_RHawtin.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/smurf-logo.svg" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_HomePartner_Hell_s_Kitchen.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/roller-coaste.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_HomePartner_Deadmau5_small.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_HomePartner_Atari.svg" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_HomePartner_CareBears.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_HomePartner_Blondish.png" alt=""></div>
+        <div class="w-[90px]"><img src="./images/Logo_HomePartner_Aminoca.png" alt=""></div>
+      </div>
+    </div>
+
+    <div class="bg-bgAvatar bg-no-repeat w-full">
+      <div class="flex items-center w-5/6 mx-auto">
+        <div class="z-10"><img src="./images/avatar-banner-snoop.png" alt=""></div>
+        <div class="avatar-components ml-[-100px]"><img src="./images/avatar-banner-component.png" alt=""></div>
+        <div class="ml-10">
+          <h2 class="text-white text-[55px] font-semibold">The Sandbox Avatar</h2>
+          <p class="text-white mt-6">Take your profile pic to the next level. Now you<br> can choose your favourite
+            Avatar to
+            explore The <br> Sandbox
+            Metaverse.</p>
+          <p class="text-white mt-5">Connect your favourite wallet to find out if you <br> own an External Avatar.</p>
+          <button class="text-white mt-5 bg-[#00b0ff] px-5 py-2 rounded-3xl font-semibold">Connect Wallet</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg-landBg bg-no-repeat bg-cover py-20">
+      <div class=" w-5/6 mx-auto flex justify-between items-center">
+        <div class="w-[460px]"><img src="./images/Granja.png" alt=""></div>
+        <div class="w-[500px]">
+          <h2 class="text-black text-[50px] font-bold leading-tight">CREATE ON YOUR OWN LAND</h2>
+          <p class="text-[15px] font-medium w-[394px] mb-5">A LAND is a piece of The Sandbox metaverse,
+            providing access to exclusive content as well as
+            granting the possibility to monetize your own part
+            of The Sandbox’s Metaverse. Build experiences,
+            host events, invite friends.</p>
+          <div>
+            <button class="bg-[#00b0ff] py-2 px-16 mr-2 text-sm font-semibold rounded-3xl">BUY LAND</button>
+            <button class="border-2 border-blue-600 py-2 px-6 text-sm font-bold text-blue-600 rounded-3xl">DISCOVER THE
+              MAP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg-sandBg bg-no-repeat bg-cover pb-10">
+      <div class="flex w-5/6 mx-auto items-center justify-between ">
+        <div>
+          <h2 class="text-white font-bold text-5xl mb-5">Why SAND?</h2>
+          <p class="mb-5 max-w-[390px]">$SAND is our main utility token that allows you to buy and sell LANDS and ASSETS
+            in The
+            Sandbox
+            metaverse.
+          </p>
+          <button class="bg-blue-600 py-2 px-16 rounded-3xl font-bold text-white">Buy</button>
+        </div>
+        <div class="relative pt-20">
+          <img src="./images/chest.png" alt="">
+          <img class="absolute top-[-50px] ml-[-15%]" src="./images/Coin1.gif" alt="">
+          <img class="absolute top-[25%] w-[60px]" src="./images/Coin2.gif" alt="">
+          <img class="absolute top-[-50px] right-[50%] w-[60px]" src="./images/Coin2.gif" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg-nftBg">
+      <div class="flex">
+        <div><img class="transform rotate-dragon ml-254" src="./images/dragon.gif" alt=""></div>
+        <div>
+          <h2 class="text-white font-bold text-5xl">NFTs</h2>
+          <p class="w-[390px]">Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital
+            scarcity, security, and authenticity. They are unique, indivisible, and non-interchangeable — allowing true
+            digital ownership of in-game assets.</p>
+          <button>Buy Assets</button>
+        </div>
       </div>
 
     </div>
