@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       color: {
-        alphaBox: "rgba(124, 123, 123, 0.24706)",
+        Box: "rgba(22,25,30,.9)",
       },
       rotate: {
         dragon: "rotateY(180deg)",
@@ -18,6 +18,11 @@ module.exports = {
         landBg: "url('/images/land-bg.png')",
         sandBg: "url('/images/sand-bg.png')",
         nftBg: "url('/images/bg-nft.png')",
+        stakingBg: "url('/images/staking-bg.png')",
+        footerBg: "url('/images/footer-banner.png')",
+      },
+      backgroundPosition: {
+        60: "60%",
       },
     },
   },

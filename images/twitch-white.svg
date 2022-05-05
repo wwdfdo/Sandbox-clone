@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Twitch_Logo" data-name="Twitch Logo" transform="translate(-1731.428 -3918)">
+    <g id="twitch" transform="translate(1731.428 3918)">
+      <circle id="ellipse" cx="15" cy="15" r="15" fill="#6441a5" opacity="0"/>
+      <path id="logo" d="M20.568,17.059V21.7H19.018V17.059Zm4.249,0V21.7H23.267V17.059Zm0,8.114,2.7-2.71V13.971H14.769v11.2h3.482v2.316l2.316-2.316ZM29.07,12.422V23.241l-4.637,4.637H20.951l-2.316,2.316H16.319V27.878H12.07V15.51l1.166-3.088Z" transform="translate(-5.07 -6.423)" fill="rgba(255,255,255,0.9)"/>
+    </g>
+  </g>
+</svg>
