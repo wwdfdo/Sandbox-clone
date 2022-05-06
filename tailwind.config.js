@@ -8,9 +8,6 @@ module.exports = {
       color: {
         Box: "rgba(22,25,30,.9)",
       },
-      rotate: {
-        dragon: "rotateY(180deg)",
-      },
 
       backgroundImage: {
         alphaBg: "url('/images/Alpha-coming-bg.png')",

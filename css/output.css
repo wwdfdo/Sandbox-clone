@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /*
 ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
@@ -426,7 +426,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 html {
-  font-family: 'Montserrat', system-ui, sans-serif;
+  font-family: "Montserrat", system-ui, sans-serif;
 }
 
 *, ::before, ::after{
@@ -474,6 +474,12 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
+.dragon {
+  transform: rotateY(180deg);
+}
+
+/* ... */
+
 .fixed{
   position: fixed;
 }
@@ -484,6 +490,10 @@ html {
 
 .relative{
   position: relative;
+}
+
+.top-\[62px\]{
+  top: 62px;
 }
 
 .left-32{
@@ -518,16 +528,8 @@ html {
   right: 50%;
 }
 
-.top-10{
-  top: 2.5rem;
-}
-
-.top-20{
-  top: 5rem;
-}
-
-.top-\[62px\]{
-  top: 62px;
+.top-\[60px\]{
+  top: 60px;
 }
 
 .z-20{
@@ -540,10 +542,6 @@ html {
 
 .m-auto{
   margin: auto;
-}
-
-.m-5{
-  margin: 1.25rem;
 }
 
 .m-6{
@@ -634,6 +632,10 @@ html {
   margin-left: -15%;
 }
 
+.ml-\[254px\]{
+  margin-left: 254px;
+}
+
 .mb-52{
   margin-bottom: 13rem;
 }
@@ -658,6 +660,18 @@ html {
   margin-bottom: 1rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
+.ml-\[100px\]{
+  margin-left: 100px;
+}
+
+.ml-20{
+  margin-left: 5rem;
+}
+
 .inline{
   display: inline;
 }
@@ -672,6 +686,14 @@ html {
 
 .h-\[60px\]{
   height: 60px;
+}
+
+.h-\[100\%\]{
+  height: 100%;
+}
+
+.h-\[35px\]{
+  height: 35px;
 }
 
 .h-auto{
@@ -690,14 +712,6 @@ html {
   height: 220px;
 }
 
-.h-\[35px\]{
-  height: 35px;
-}
-
-.h-\[100\%\]{
-  height: 100%;
-}
-
 .max-h-full{
   max-height: 100%;
 }
@@ -712,6 +726,10 @@ html {
 
 .w-28{
   width: 7rem;
+}
+
+.w-\[35px\]{
+  width: 35px;
 }
 
 .w-\[90\%\]{
@@ -798,8 +816,8 @@ html {
   width: 45px;
 }
 
-.w-\[35px\]{
-  width: 35px;
+.w-\[323px\]{
+  width: 323px;
 }
 
 .max-w-\[155px\]{
@@ -812,15 +830,6 @@ html {
 
 .basis-0{
   flex-basis: 0px;
-}
-
-.rotate-dragon{
-  --tw-rotate: rotateY(180deg);
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.transform{
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer{
@@ -889,6 +898,14 @@ html {
 
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .gap-x-2{
@@ -1095,6 +1112,10 @@ html {
   padding-right: 4rem;
 }
 
+.pt-2{
+  padding-top: 0.5rem;
+}
+
 .pb-4{
   padding-bottom: 1rem;
 }
@@ -1115,12 +1136,8 @@ html {
   padding-bottom: 2.5rem;
 }
 
-.pt-1{
-  padding-top: 0.25rem;
-}
-
-.pt-2{
-  padding-top: 0.5rem;
+.pb-8{
+  padding-bottom: 2rem;
 }
 
 .text-center{
@@ -1130,6 +1147,11 @@ html {
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-\[17px\]{
@@ -1179,11 +1201,6 @@ html {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .font-medium{
@@ -1250,6 +1267,10 @@ html {
   color: rgb(160 164 167 / var(--tw-text-opacity));
 }
 
+.opacity-\[\.4\]{
+  opacity: .4;
+}
+
 .opacity-\[\.9\]{
   opacity: .9;
 }
@@ -1257,8 +1278,3 @@ html {
 .opacity-\[0\.5\]{
   opacity: 0.5;
 }
-
-.opacity-\[\.4\]{
-  opacity: .4;
-}
-
