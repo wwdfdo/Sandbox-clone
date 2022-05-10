@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/815febe67f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/output.css" />
   <title>Document</title>
 </head>
@@ -20,18 +21,17 @@
             <img class="max-h-full px-6" src="./images/TheSandboxLogo.svg" alt="logo">
           </a>
         </div>
-        <div class="nav-bar flex font-medium text-base items-stretch h-60px">
+        <div class="nav-bar flex font-medium text-base items-center h-60px">
           <div class="mx-2 flex items-center text-white">
-            <a href=""><img class="w-[24px] inline" src="./images/globe-icon.svg" alt=""> <span>EN</span></a>
+            <a href=""><span class="mr-4"><i class="fa-solid fa-globe"></span></i><span>EN</span></a>
           </div>
 
 
           <div class="nav-link mx-4 self-center text-white bg-blue-600 w-28 py-1 px-5 text-center rounded-3xl">
             <a href="">Sing in</a>
           </div>
-          <div class="border-0 text-center py-2 px-3 ">
-            <a class="text-white font-semibold" href=""><button><img class="w-[24px] text-white"
-                  src="./images/shopping-cart.png" alt=""></button></a>
+          <div class="border-0 text-center mr-6 ">
+            <a class="text-white font-semibold" href=""><button><i class="fa-solid fa-cart-shopping"></i></button></a>
           </div>
         </div>
       </div>
@@ -43,7 +43,9 @@
     <div class="z-20 top-[60px] bg-[#14181d] fixed h-[100%]">
       <div class="flex flex-col items-center m-6">
         <img class="w-[35px] h-[35px]" src="./images/home-icon.svg" alt="">
-        <p class="text-white opacity-[.4] text-xs font-bold text-center pt-2">HOME</p>
+        <a href="javascript:location.reload();">
+          <p class="text-white opacity-[.4] text-xs font-bold text-center pt-2">HOME</p>
+        </a>
       </div>
       <div class="flex flex-col items-center m-6">
         <img class="w-[35px] h-[35px]" src="./images/play-icon.svg" alt="">
@@ -568,7 +570,6 @@
 
     </div>
   </div>
-
 </body>
 
 </html>
